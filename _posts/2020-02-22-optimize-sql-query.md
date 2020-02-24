@@ -2,7 +2,7 @@
 layout: post
 title: Ghi chú SQL query tháng 2
 tags: [sql, optimize]
-comments: false
+comments: true
 ---
 
 Trong thực tế, những nỗ lực tối ưu câu truy vấn đem lại hiệu quả thấp hơn nhiều so với việc thiết kế lược đồ (shema) tốt. Lược đồ càng tốt thì càng dễ dàng để viết truy vấn. 
