@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ghi chú tháng 6 Setting custom domain và TLS/SSL cho Azure App Service
-tags: [game, working, try hard]
+tags: [azure, tls\ssl, app service]
 comments: true
 ---
 ### Azure App Service là gì?
@@ -28,12 +28,12 @@ thêm tính năng Custom domains/ SSL.
 
 Để kích hoạt custom domain bạn phải lựa chọn App Service Plan for production. Sau đó vào App Service và chọn Custom domains -> Add custom domain
 
-![Add Custom Domain](../images/Azure_App Service_refs/Add_Custom_Domain.png{:class="img-responsive"}
+![Add Custom Domain](../images/Azure_App Service_refs/Add_Custom_Domain.png){:class="img-responsive"}
 
 Tiếp đến nhập custom domain có thể là {sub-domain}.mydomain.com như là www.mydomain.com hoặc nake domain (wildcard domain)
 như là mydomain.com và ấn nút validate.
 
-![Validate Custom Domain](../images/Azure_App Service_refs/Validate_Custom_Domain.png{:class="img-responsive"}
+![Validate Custom Domain](../images/Azure_App Service_refs/Validate_Custom_Domain.png){:class="img-responsive"}
 
 Nếu domain hợp lệ, bạn cần thêm thông tin Custom Domain Verification ID vào DNS provider (nhà cung cấp dịch vụ tên miền như 
 GoDaddy, Freenom, ...) để xác thực quyền sở hữu domain. Bạn chỉ cần lấy các thông tin chỉ dẫn từ Azure và truy cập vào dịch vụ 
