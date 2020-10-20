@@ -26,7 +26,7 @@ Polling là một kỹ thuật tiêu chuẩn được sử dụng bởi đại �
 3. Máy chủ xử lý và trả về phản hồi và gửi lại phản hồi cho máy client.
 4. Máy khách lặp lại ba bước trên theo định kỳ để nhận các bản cập nhật từ máy chủ.
 
-![ajax-polling]](../images/long-polling-websockets-see/ajax-polling.svg){:class="img-responsive"}
+![ajax-polling](../images/long-polling-websockets-see/ajax-polling.svg){:class="img-responsive"}
 
 ### HTTP Long-Polling
 Đây là một biến thể của kỹ thuật polling truyền thống cho phép máy chủ đẩy thông tin đến máy khách bất cứ khi nào có dữ liệu. Với Long-Polling, khách hàng yêu cầu thông tin từ máy chủ chính xác như trong polling thông thường, nhưng với kỳ vọng rằng máy chủ có thể không phản hồi ngay lập tức. Đó là lý do tại sao kỹ thuật này đôi khi được gọi là "Hanging GET".
